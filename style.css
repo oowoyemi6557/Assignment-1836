@@ -33,6 +33,13 @@ body {
   background: #f7f7f7;
 }
 
+.logo {
+  position: relative;
+  height: auto;
+  left: 0rem;
+  width: 250px;
+}
+
 section {
   padding: 2rem 9%;
 }
