@@ -193,6 +193,7 @@ header .navbar a:hover {
 
 .about .image {
   flex: 1 1 40rem;
+  padding-right: 1rem;
 }
 
 .about .image img {
