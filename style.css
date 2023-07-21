@@ -295,6 +295,10 @@ header .navbar a:hover {
   display: inline-block;
   flex-wrap: wrap;
   background-image: url(images/restaurant.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   background: #333 rgba(0, 0, 0, 0.938);
   gap: 1.5rem;
   min-height: 100vh;
@@ -325,11 +329,11 @@ header .navbar a:hover {
   display: inline-block;
   font-size: 3rem;
   width: 100%;
-  color: #333;
+  color: red;
   text-align: center;
   align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
 }
 
 .order .row form .inputbox {
@@ -345,8 +349,9 @@ header .navbar a:hover {
   font-size: 1.7rem;
   color: #333;
   text-transform: none;
-  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  /*-- border: 0.1rem solid rgba(0, 0, 0, 0.3);--*/
   border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   width: 49%;
 }
 
@@ -362,6 +367,7 @@ header .navbar a:hover {
   cursor: pointer;
   align-items: center;
   border: none;
+  margin-bottom: 4rem;
 }
 
 .order .row form .btn:hover {
