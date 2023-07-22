@@ -408,6 +408,21 @@ header .navbar a:hover {
   margin-bottom: 2rem;
   flex-wrap: nowrap;
 }
+.footer .content-footer div {
+  width: 33%;
+}
+.footer .content-footer div h3 {
+  color: #fff;
+}
+.footer .content-footer div ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.footer .content-footer div ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem 0;
+}
 
 #scroll-top {
   position: fixed;
