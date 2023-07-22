@@ -267,8 +267,8 @@ header .navbar a:hover {
 
 .menu .box-container .box .content img {
   margin: 1.5rem 0;
-  height: 125px;
-  width: 125px;
+  height: 67px;
+  width: 66px;
 }
 
 .menu .box-container .box .content h3 {
@@ -421,6 +421,7 @@ header .navbar a:hover {
 .footer .content-footer div ul li a {
   text-decoration: none;
   color: white;
+  font-size: small;
   padding: 1rem 0;
 }
 
