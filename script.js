@@ -2,7 +2,7 @@ let menu = document.querySelector("#menu-bar");
 let navbar = document.querySelector(".navbar");
 
 menu.onclick = () => {
-  menu.classList.toggle("fas fa-bars");
+  menu.classList.toggle("fas fa-times");
   navbar.classList.toggle("active");
 };
 
