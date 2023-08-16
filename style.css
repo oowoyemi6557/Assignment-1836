@@ -150,7 +150,7 @@ header .navbar a:hover {
 
 .home .content h3 {
   font-size: 5rem;
-  color: #333;
+  color: #034f82;
 }
 
 .home .content p {
@@ -171,13 +171,14 @@ header .navbar a:hover {
 .about .heading {
   display: inline-block;
   font-size: 3rem;
+  color: #034f82;
   width: 100%;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 .about .content {
   flex: 1 1 40rem;
-  padding-top: 6.5rem;
+  padding-top: 1rem;
 }
 
 .about .image {
@@ -188,10 +189,12 @@ header .navbar a:hover {
 .about .image img {
   width: 100%;
   padding: 1rem;
+  width: 500px;
+  height: 400px;
 }
 .about .content h4 {
   font-size: 3rem;
-  color: #333;
+  color: #034f82;
 }
 
 .about .content p {
@@ -203,6 +206,20 @@ header .navbar a:hover {
   height: auto !important ;
   background: red;
   color: white;
+}
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  padding-bottom: 36.26%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .menu {
   display: flex;
@@ -217,6 +234,7 @@ header .navbar a:hover {
 .menu .heading {
   display: inline-block;
   font-size: 3rem;
+  color: #034f82;
   width: 100%;
   text-align: center;
   align-items: flex-start;
@@ -262,7 +280,7 @@ header .navbar a:hover {
 
 .menu .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #333;
+  color: #034f82;
 }
 
 .menu .box-container .box .content p {
@@ -293,6 +311,7 @@ header .navbar a:hover {
   min-height: 60vh;
   align-items: center;
   background-color: #fff;
+  padding-bottom: 20rem;
 }
 
 .popular .heading {
@@ -318,7 +337,7 @@ header .navbar a:hover {
   display: inline-block;
   font-size: 3rem;
   width: 100%;
-  color: red;
+  color: #034f82;
   text-align: center;
   align-items: center;
   padding-top: 8rem;
@@ -571,8 +590,8 @@ header .navbar a:hover {
   min-height: 22rem;
   margin-bottom: 1rem;
 }
-
-.inputBox input[type="submit"] {
+inputBox input
+.[type="submit"] {
   background: #ff3838;
   color: #fff;
   border: none;
@@ -861,6 +880,20 @@ header .navbar a:hover {
     color: #fff;
     display: block;
     position: relative;
+  }
+  .iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 56.26%;
+    height: 0;
+  }
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 400px) {
